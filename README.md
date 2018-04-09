@@ -49,3 +49,9 @@ and build with
 ```
 npm run docs
 ```
+
+## Run docker container using nginx
+
+```
+docker run -p 80:80 -d -v ${PWD}:/usr/share/nginx/html nginx
+```
